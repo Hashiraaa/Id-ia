@@ -1,0 +1,110 @@
+*{
+    color: white;
+}
+@font-face {
+    font-family: Smasher ;
+    src: url(Fontes/Zenzai\ Itacha.ttf);
+}
+@font-face {
+    font-family: Hiroshima;
+    src: url(Fontes/Shenttpuro\ Font.ttf);
+}
+@font-face {
+    font-family: AmoreMIO;
+    src: url(Fontes/AmoreMIO.ttf);
+}
+@font-face {
+    font-family: Casadeamor;
+    src: url(Fontes/Casadeamor.ttf);
+}
+.container { 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+h1{
+    font-family: Smasher;
+    color: #fc0fc0;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: Hiroshima;
+    color: #fc0fc0; 
+    font-size: 20px;
+}
+hr{
+    border-color: rgb(78, 0, 78); 
+   }
+body{
+    background-color: black;
+}
+.borda1{
+    background: linear-gradient(to right, #fc0fc0, rgb(78, 0, 78));
+    border: 1px solid transparent;
+    border-radius: 20px;
+    height: 206px;
+    width: 230px;
+}
+.borda2{
+    background: linear-gradient(to left, #fc0fc0, rgb(78, 0, 78));
+    border: 1px solid transparent;
+    border-radius: 20px;
+    height: 206px;
+    width: 230px;
+}
+.item-list{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    height: 196px;
+    width: 220px;
+    margin: 4px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 60px;
+}
+svg{
+    fill: white;
+}
+svg:hover{
+    fill: #fc0fc0;
+}
+.svg-area{
+    margin-left: 10px;
+    width: 17px;
+}
+.caixa{
+    width: 69%;
+    margin-bottom: 200px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    fill: #fc0fc0;
+}
+h3{
+    font-family: AmoreMIO;
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    font-family: sans-serif;
+    color: white;
+}
+footer{
+    background-color: #fc0fc0;
+    padding: 5px;
+}
